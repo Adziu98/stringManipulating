@@ -8,7 +8,6 @@ public class inputString extends revertedString {
     @Override
     public void revertStringDesc(String name) {
         super.revertStringDesc(name);
-        System.out.println("test");
     }
 
     public static void main(String[] args) {

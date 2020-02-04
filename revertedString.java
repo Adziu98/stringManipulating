@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class revertedString {
-    private int toAscii = 0;
-    private char toChar;
+    private static int toAscii;
+    private static char toChar;
 
     public void revertString(String name) {
 //        String reverse = "";
@@ -25,7 +25,6 @@ public class revertedString {
 
             toAscii = (int) + name.charAt(i);
             lista.add(toAscii);
-            toAscii = 0;
         }
         Collections.sort(lista);
         return lista;
